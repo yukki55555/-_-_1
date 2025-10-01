@@ -66,7 +66,59 @@ color: black;
     margin: 40px 0px ;
 }
 
-.box2 a{
+
+.href2 {
     text-decoration: none;
-    
+    color: black;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.box2 {
+    width: 657px;
+    height: 104px;
+}
+.text {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.box3{
+    width: 657px;
+    height: 78px;
+    padding: 16px 0px;
+}
+
+.photo{
+    display: flex;
+}
+
+.ask-btn2 {
+    background-color: #33836E;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 30px;
+    color: white;
+    font-size: 16px;
+}
+
+.number{
+    color: #33836E;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.contact2{
+    width: 180px;
+    height: 33px;
+    display: flex;
+    text-decoration-line: underline;
+    text-decoration-color: #33836E;
+}
+
+.text2{
+    display: flex;
+    gap: 30px;
 }
