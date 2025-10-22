@@ -240,22 +240,49 @@ body{
     font-size: 16px;
 }
 
-.class5{
+.helptittle{
+    left: 600px;
+    top: 1663px;
+}
+
+.help{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    letter-spacing: -3%;
+}
+
+.helpcards{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    gap: 20px;
+    width: 1140px;
+    height: 380px;
+    top: 74px;
+    margin-top: 30px;
+}
+
+.helpcard{
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     padding: 30px;
+    width: 560px;
+    height: 180px;
     border: 1px solid rgba(47, 43, 67, 0.15);
     border-radius: 20px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
-.box6{
-    width: 1140px;
-    height: 454px;
-    display: flex;
-    gap: 30px;
-    flex-direction: row;
-}
-
-.box7{
-    flex-direction: column;
+.text6{
+    padding: 0px 20px;
+    width: 340px;
+    height: 120px;
+    font-family: 'Open Sans';
+    line-height: 150%;
+    gap: 20px;
 }
