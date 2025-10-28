@@ -286,3 +286,7 @@ body{
     line-height: 150%;
     gap: 20px;
 }
+.infoelements {
+    display: flex;
+    flex-direction: column;
+}
